@@ -271,7 +271,7 @@ body {
   font-weight: 700;
   margin-bottom: 1rem;
   line-height: 1.2;
-  margin-top: 0.5em;
+  margin-top: 0;
 }
 
 .hero-desc {
@@ -866,7 +866,7 @@ section {
 
   .hero-text h1 {
     font-size: 1.7rem;
-    margin-top: 1em;
+    margin-top: 0.5em;
   }
 
   .profile-img {
@@ -920,8 +920,8 @@ section {
   }
 
   .hero-text h1 {
-    font-size: 1.3rem;
-    margin-top: 1.5em;
+    font-size: 2rem;
+    margin-top: 0.5em;
     word-break: break-word;
   }
 

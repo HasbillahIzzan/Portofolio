@@ -243,6 +243,7 @@ body {
   background: var(--accent-gradient);
   position: relative;
   overflow: hidden;
+  padding-top: 100px;
 }
 
 .hero::before {
@@ -900,6 +901,10 @@ section {
 
   .project-body {
     padding: 1.2rem 1rem 1rem 1rem;
+  }
+
+  .hero {
+    padding-top: 110px;
   }
 }
 

@@ -443,25 +443,6 @@ window.addEventListener("resize", () => {
   }
 });
 
-// Smooth scroll for CTA button
-document.addEventListener("DOMContentLoaded", () => {
-  const ctaButton = document.querySelector(".cta-button")
-  if (ctaButton) {
-    ctaButton.addEventListener("click", () => {
-      const resumeSection = document.getElementById("resume")
-      if (resumeSection) {
-        const offsetTop = resumeSection.offsetTop - 80
-        window.scrollTo({
-          top: offsetTop,
-          behavior: "smooth",
-        })
-      }
-    })
-  }
-})
-
-// ...existing code...
-
 // Hanya untuk gambar linkan.id.jpg saja
 document.querySelectorAll('.project-hover').forEach(item => {
   const img = item.querySelector('img');
@@ -479,7 +460,7 @@ document.querySelectorAll('.project-hover').forEach(item => {
 });
 // Typing and deleting effect for #typing-name
 document.addEventListener("DOMContentLoaded", function () {
-  const text = "Hasbillah Maulana";
+  const text = "Hasbillah Maulana Izzan";
   const target = document.getElementById("typing-name");
   let i = 0;
   let isDeleting = false;
@@ -564,4 +545,14 @@ document.addEventListener("DOMContentLoaded", function() {
     });
   }
 });
+
+// Tambahkan fungsi downloadCV
+function downloadCV() {
+  const link = document.createElement('a');
+  link.href = 'Hasbillah Maulana Izzan CV.pdf';
+  link.download = 'Hasbillah Maulana Izzan CV.pdf';
+  document.body.appendChild(link);
+  link.click();
+  document.body.removeChild(link);
+}
 

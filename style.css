@@ -243,7 +243,7 @@ body {
   background: var(--accent-gradient);
   position: relative;
   overflow: hidden;
-  padding-top: 100px;
+  padding-top: 130px;
 }
 
 .hero::before {
@@ -271,6 +271,7 @@ body {
   font-weight: 700;
   margin-bottom: 1rem;
   line-height: 1.2;
+  margin-top: 0.5em;
 }
 
 .hero-desc {
@@ -864,7 +865,8 @@ section {
   }
 
   .hero-text h1 {
-    font-size: 2.5rem;
+    font-size: 1.7rem;
+    margin-top: 1em;
   }
 
   .profile-img {
@@ -914,7 +916,9 @@ section {
   }
 
   .hero-text h1 {
-    font-size: 2rem;
+    font-size: 1.3rem;
+    margin-top: 1.2em;
+    word-break: break-word;
   }
 
   .section-title {

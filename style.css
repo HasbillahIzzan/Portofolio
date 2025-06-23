@@ -915,9 +915,13 @@ section {
     padding: 0 15px;
   }
 
+  .hero {
+    padding-top: 140px;
+  }
+
   .hero-text h1 {
     font-size: 1.3rem;
-    margin-top: 1.2em;
+    margin-top: 1.5em;
     word-break: break-word;
   }
 
